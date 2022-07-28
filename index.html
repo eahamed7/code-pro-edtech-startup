@@ -11,10 +11,13 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 
+    <!-- Custom CSS Stylesheet -->
+    <link rel="stylesheet" href="styles/style.css">
+
 </head>
 
 <body>
-    <header>
+    <header class="container">
         <!-- Navigation Panel -->
         <nav class="navbar navbar-expand-lg bg-light fixed-top">
             <div class="container">
@@ -27,26 +30,26 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Courses</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Deals</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Success</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Register</a>
-                            </li>
-                        </ul>
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Courses</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Deals</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Success</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Register</a>
+                        </li>
+                    </ul>
 
                     <form class="d-flex" role="search">
                         <button class="btn btn-outline-success" type="submit">Register</button>
@@ -55,15 +58,167 @@
             </div>
         </nav>
         <!-- End of Navigation Panel -->
-    </header>
-    <!-- Bootstrap JavaScript Libraries -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
-        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
-        crossorigin="anonymous"></script>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
-        integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
-        crossorigin="anonymous"></script>
+        <!-- Start of Carousel -->
+        <section>
+            <div id="carouselExampleControls" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div
+                            class="carousel-caption d-flex h-100 justify-content-center align-item-center flex-column px-5">
+                            <h1 class="fs-1">Get Started Digital Learning</h1>
+                            <p> Personalized, fun, and interactive learning process. Enjoy our gamified courses to
+                                master python,
+                                mobile app development, cyber security, C programming, C++, and many more.
+                            </p>
+                            <div>
+                                <button class="btn btn-primary">Get Started</button>
+                            </div>
+                        </div>
+                        <img src="images/cover/cover-1.png" class="d-block w-100 " alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <div
+                            class="carousel-caption d-flex h-100 justify-content-center align-item-center flex-column px-5">
+                            <h1 class="fs-1">Get Unlimited Personalised Learning Support</h1>
+                            <p>
+                                Come and enjoy the most effective web dev learning process. We provide unlimited coding
+                                support,
+                                daily
+                                concept clear sessions, real-world projects, job placement service, and many more. And
+                                66% of our
+                                successful students get hired internationally
+
+                            </p>
+                            <div>
+                                <button class="btn btn-primary">Get Started</button>
+                            </div>
+                        </div>
+                        <img src="images/cover/cover-2.jpg" class="d-block w-100 " alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <div
+                            class="carousel-caption d-flex h-100 justify-content-center align-item-center flex-column px-5">
+                            <h1 class="fs-1">Learn Web Development to Get a Job</h1>
+                            <p>
+                                Come and enjoy unlimited coding support, daily concept clear sessions,
+                                real-world projects, job placement service, and many more. And 70% of our successful
+                                students get hired internationally.
+                            </p>
+                            <div>
+                                <button class="btn btn-primary">Get Started</button>
+                            </div>
+                        </div>
+                        <img src="images/cover/cover-3.jpg" class="d-block w-100 " alt="...">
+                    </div>
+
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+        </section>
+        <!-- End of Carousel -->
+    </header>
+
+    <section class="container my-4 ">
+        <h1 class="text-center">Discover Our Popular Courses</h1>
+
+        <section>
+            <div class="container my-5">
+                <div class="row g-4">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="p-3 rounded-3  d-flex align-items-center justify-content-around">
+                            <img class="img-fluid" src="images/course/course-1.png" alt="">
+                            <div class="d-flex flex-column text-start ps-4">
+                                <h4>Fundamental Of UI/UX Design</h3>
+                                    <p>Some quick example text to build on the card title and make up the bulk of the
+                                        card.
+                                    </p>
+                                    <h5>£20</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="p-3 rounded-3  d-flex align-items-center justify-content-around">
+                            <img class="img-fluid" src="images/course/course-2.png" alt="">
+                            <div class="d-flex flex-column text-start ps-4">
+                                <h4>Fundamental Of UI/UX Design</h3>
+                                    <p>Some quick example text to build on the card title and make up the bulk of the
+                                        card.
+                                    </p>
+                                    <h5>£20</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="p-3 rounded-3  d-flex align-items-center justify-content-around">
+                            <img class="img-fluid" src="images/course/course-3.png" alt="">
+                            <div class="d-flex flex-column text-start ps-4">
+                                <h4>Fundamental Of UI/UX Design</h3>
+                                    <p>Some quick example text to build on the card title and make up the bulk of the
+                                        card.
+                                    </p>
+                                    <h5>£20</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="p-3 rounded-3  d-flex align-items-center justify-content-around">
+                            <img class="img-fluid" src="images/course/course-4.png" alt="">
+                            <div class="d-flex flex-column text-start ps-4">
+                                <h4>Fundamental Of UI/UX Design</h3>
+                                    <p>Some quick example text to build on the card title and make up the bulk of the
+                                        card.
+                                    </p>
+                                    <h5>£20</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="p-3 rounded-3  d-flex align-items-center justify-content-around">
+                            <img class="img-fluid" src="images/course/course-5.png" alt="">
+                            <div class="d-flex flex-column text-start ps-4">
+                                <h4>Fundamental Of UI/UX Design</h3>
+                                    <p>Some quick example text to build on the card title and make up the bulk of the
+                                        card.
+                                    </p>
+                                    <h5>£20</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="p-3 rounded-3  d-flex align-items-center justify-content-around">
+                            <img class="img-fluid" src="images/course/course-6.png" alt="">
+                            <div class="d-flex flex-column text-start ps-4">
+                                <h4>Fundamental Of UI/UX Design</h3>
+                                    <p>Some quick example text to build on the card title and make up the bulk of the
+                                        card.
+                                    </p>
+                                    <h5>£20</h5>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Bootstrap JavaScript Libraries -->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+            integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+            crossorigin="anonymous"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+            integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+            crossorigin="anonymous"></script>
 </body>
 
 </html>

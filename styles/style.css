@@ -1,0 +1,11 @@
+/* Styling Bootstrap Classes */
+.carousel-item{
+    background-color: black;
+}
+.carousel-item img {
+    object-fit: cover;
+    object-position: center;
+    height: 50vh;
+    opacity: 0.35;
+    
+}
