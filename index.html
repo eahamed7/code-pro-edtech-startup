@@ -14,6 +14,13 @@
     <!-- Font Awesome Icons -->
     <script src="https://kit.fontawesome.com/edc77b2b12.js" crossorigin="anonymous"></script>
 
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
     <!-- Custom CSS Stylesheet -->
     <link rel="stylesheet" href="styles/style.css">
 
@@ -55,7 +62,7 @@
                     </ul>
 
                     <form class="d-flex" role="search">
-                        <button class="btn btn-outline-success" type="submit">Register</button>
+                        <button class="btn register-button" type="submit">Register</button>
                     </form>
                 </div>
             </div>
@@ -69,7 +76,7 @@
                     <div class="carousel-item active">
                         <div
                             class="carousel-caption d-flex h-100 justify-content-center align-item-center flex-column px-5">
-                            <h1 class="fs-1">Get Started Digital Learning</h1>
+                            <h1>Get Started Digital Learning</h1>
                             <p> Personalized, fun, and interactive learning process. Enjoy our gamified courses to
                                 master python,
                                 mobile app development, cyber security, C programming, C++, and many more.
@@ -83,7 +90,7 @@
                     <div class="carousel-item">
                         <div
                             class="carousel-caption d-flex h-100 justify-content-center align-item-center flex-column px-5">
-                            <h1 class="fs-1">Get Unlimited Personalised Learning Support</h1>
+                            <h1>Get Unlimited Personalised Learning Support</h1>
                             <p>
                                 Come and enjoy the most effective web dev learning process. We provide unlimited coding
                                 support,
@@ -102,7 +109,7 @@
                     <div class="carousel-item">
                         <div
                             class="carousel-caption d-flex h-100 justify-content-center align-item-center flex-column px-5">
-                            <h1 class="fs-1">Learn Web Development to Get a Job</h1>
+                            <h1>Learn Web Development to Get a Job</h1>
                             <p>
                                 Come and enjoy unlimited coding support, daily concept clear sessions,
                                 real-world projects, job placement service, and many more. And 70% of our successful
@@ -133,6 +140,9 @@
     <!-- Courses -->
     <section class="container my-5">
         <h1 class="text-center">Discover Our Popular Courses</h1>
+        <p class="text-center">It is a long established fact that a reader will be distracted by the readable content of
+            a page when looking
+            at its layout.</p>
         <div class="container my-5">
             <div class="row g-4">
                 <div class="col-lg-6 col-md-12 col-sm-12">
@@ -143,7 +153,7 @@
                                 <p>Some quick example text to build on the card title and make up the bulk of the
                                     card.
                                 </p>
-                                <h5>£20</h5>
+                                <h5 class="text-primary">Price: £20</h5>
                         </div>
                     </div>
                 </div>
@@ -155,7 +165,7 @@
                                 <p>Some quick example text to build on the card title and make up the bulk of the
                                     card.
                                 </p>
-                                <h5>£20</h5>
+                                <h5 class="text-primary">Price: £20</h5>
                         </div>
                     </div>
                 </div>
@@ -167,7 +177,7 @@
                                 <p>Some quick example text to build on the card title and make up the bulk of the
                                     card.
                                 </p>
-                                <h5>£20</h5>
+                                <h5 class="text-primary">Price: £20</h5>
                         </div>
                     </div>
                 </div>
@@ -179,7 +189,7 @@
                                 <p>Some quick example text to build on the card title and make up the bulk of the
                                     card.
                                 </p>
-                                <h5>£20</h5>
+                                <h5 class="text-primary">Price: £20</h5>
                         </div>
                     </div>
                 </div>
@@ -191,7 +201,7 @@
                                 <p>Some quick example text to build on the card title and make up the bulk of the
                                     card.
                                 </p>
-                                <h5>£20</h5>
+                                <h5 class="text-primary">Price: £20</h5>
                         </div>
                     </div>
                 </div>
@@ -203,19 +213,22 @@
                                 <p>Some quick example text to build on the card title and make up the bulk of the
                                     card.
                                 </p>
-                                <h5>£20</h5>
+                                <h5 class="text-primary">Price: £20</h5>
                         </div>
                     </div>
                 </div>
 
-
+                <div class="d-flex justify-content-center">
+                    <button class="btn btn-primary">See More Courses</button>
+                </div>
+                
             </div>
         </div>
     </section>
     <!-- End of Courses -->
 
     <!-- Statistics -->
-    <section class="container my-5">
+    <section class="container my-5 stats-bg">
         <div class="row g-4">
             <div class="col-lg-6 col-md-12 col-sm-12">
                 <img class="img-fluid" src="images/working.png" alt="">
@@ -237,19 +250,21 @@
                     </div>
                     <div class="d-flex">
                         <div class="d-flex flex-column">
-                            <h5>3.2K+</h5>
+                            <h5 class="stats">3.2K+</h5>
                             <p>Online Course</p>
                         </div>
                         <div class="d-flex flex-column px-5">
-                            <h5>600+</h5>
+                            <h5 class="stats">600+</h5>
                             <p>Expert member</p>
                         </div>
                         <div class="d-flex flex-column">
-                            <h5>1K+</h5>
+                            <h5 class="stats">1K+</h5>
                             <p>Rating & Review</p>
                         </div>
                     </div>
-                    <button class="btn btn-primary">Read More</button>
+                    <div>
+                        <button class="btn btn-primary">Read More</button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -257,7 +272,7 @@
     <!-- End of Statistics -->
 
     <!-- Register Modal -->
-    <section class="container my-5 bg-warning">
+    <section class="container my-5 ready-to-join">
         <div class="mx-5 my-5">
             <div class="row g-4">
                 <div class="col-lg-6 col-md-6 col-sm-6">
@@ -374,7 +389,7 @@
                 <div class="d-flex justify-content-between">
                     <img src="images/comma.png" alt="">
                     <div>
-                        <p>
+                        <p class="review">
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
@@ -399,7 +414,7 @@
                 <div class="d-flex justify-content-between">
                     <img src="images/comma.png" alt="">
                     <div>
-                        <p>
+                        <p class="review">
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
@@ -525,25 +540,25 @@
             </div>
             <div class="col-xl-2 d-none d-lg-block">
                 <img src="images/company/company-3.png" alt="">
-                < </div>
-                    <div class="col-xl-2 d-none d-lg-block">
-                        <img src="images/company/company-4.png" alt="">
-
-                    </div>
-                    <div class="col-xl-2 d-none d-lg-block">
-                        <img src="images/company/company-5.png" alt="">
-
-                    </div>
-                    <div class="col-xl-2 d-none d-lg-block">
-                        <img src="images/company/company-6.png" alt="">
-
-                    </div>
             </div>
+            <div class="col-xl-2 d-none d-lg-block">
+                <img src="images/company/company-4.png" alt="">
+
+            </div>
+            <div class="col-xl-2 d-none d-lg-block">
+                <img src="images/company/company-5.png" alt="">
+
+            </div>
+            <div class="col-xl-2 d-none d-lg-block">
+                <img src="images/company/company-6.png" alt="">
+
+            </div>
+        </div>
     </section>
     <!-- End of Partner Companies -->
 
     <!-- Begining of Footer -->
-    <footer class="bg-warning py-5">
+    <footer class="py-5">
         <div class="d-flex flex-column justify-content-center align-items-center">
             <h3>CodePro</h3>
             <h6>Office 41, Zawaya Buildin, Ghala Muscat,
@@ -553,7 +568,7 @@
                 <p> | </p>
                 <a class="px-2 text-decoration-none" href="">Terms of Use</a>
             </div>
-            <div >
+            <div>
                 <a class="px-2 text-decoration-none" href=""> <i class="fa-brands fa-facebook"></i></a>
                 <a class="px-2 text-decoration-none" href=""><i class="fa-brands fa-instagram"></i></a>
                 <a class="px-2 text-decoration-none" href=""><i class="fa-brands fa-tiktok"></i></a>

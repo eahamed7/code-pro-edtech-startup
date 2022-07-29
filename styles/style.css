@@ -1,11 +1,71 @@
 /* Styling Bootstrap Classes */
-.carousel-item{
+.carousel-item {
     background-color: black;
 }
+
 .carousel-item img {
     object-fit: cover;
     object-position: center;
     height: 50vh;
     opacity: 0.35;
-    
+
+}
+
+/* Custom CSS Style */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    font-weight: 400;
+    size: 16px;
+    color: rgba(119, 119, 119, 1);
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 45px;
+}
+
+.register-button {
+    background-color: none;
+    border: 3px solid rgba(40, 155, 222, 1);
+    color: rgba(40, 155, 222, 1);
+}
+
+.stats-bg {
+    background-color: rgba(244, 250, 253, 1);
+}
+
+.stats {
+    font-weight: 600;
+    font-size: 45px;
+}
+
+.ready-to-join {
+    background-color: rgba(40, 155, 222, 1);
+    color: white;
+    padding: 3%;
+}
+
+.ready-to-join p {
+    color: white;
+}
+
+.ready-to-join button {
+    background-color: white;
+    color: rgba(40, 155, 222, 1);
+}
+
+.review {
+    color: rgba(245, 158, 11, 1);
+}
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+footer a {
+    color: white;
 }
